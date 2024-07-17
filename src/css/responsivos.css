@@ -1,0 +1,27 @@
+@media(max-width: 750px){
+    .cabecalho{
+        flex-direction: column;
+    }
+    .cabecalho .logo .title-logo{
+        font-size: 40px;
+    }
+    .cabecalho .menu .lista-menu{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .cabecalho .menu .lista-menu .item-lista{
+        padding: 33px 0;
+    }
+    .cabecalho .menu .lista-menu .item-lista:last-child{
+        margin-top: 20px;
+    }
+    .cabecalho .menu .lista-menu .item-lista a{
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+    .cabecalho .menu .lista-menu .item-lista a.cadastro{
+        font-size: 18px;
+        padding: 15px 23px;
+    }
+}
+
